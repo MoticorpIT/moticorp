@@ -7,6 +7,10 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "gridsome": "^0.6.0"
+    "gridsome": "^0.6.0",
+    "tailwindcss": "^1.0.5"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^1.2.0"
   }
 }
