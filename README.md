@@ -2,6 +2,8 @@
 
 This is a [Gridsome](https://gridsome.org) project. Which is a [Vue.js](https://vuejs.org) static site generator. It was created using the default installation command `gridsome create new-project` and has been heavily modified to serve as the main website for [MotiCorp](https://moticorp.com). The project uses [TailwindCSS](https://tailwindcss.com) for styling.
 
+**NOTE: Site is still in production**
+
 ## Contribute to the Project
 
 If you would like to contribute to the project. There are a few things you will need to do, but the process is fairly simple. **Note:** These steps are untested and may not work. If you following these steps and it doesn't work, please let us know how and/or why and we'll try to update.

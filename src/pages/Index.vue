@@ -1,29 +1,76 @@
 <template>
 	<Layout>
-		<!-- Learn how to use images here: https://gridsome.org/docs/images -->
-		<g-image alt="Example image" src="~/favicon.png" width="135" />
-
-		<h1>Hello, world!</h1>
-
-		<p class="bg-blue-400 text-centered p-12">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores</p>
-
-		<p class="home-links">
-			<a href="https://gridsome.org/docs" target="_blank" rel="noopener">Gridsome Docs</a>
-			<a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
-		</p>
+        <section class="container mx-auto mb-24">
+            <div class="max-w-xl mt-10">
+                <hr class="border-2 border-moticorp-500 w-1/6 mb-8 mx-0">
+                <h2 class="font-hero leading-none text-7xl" style="opacity: 1; transform: translateY(0px);">Motivation in Motion.</h2>
+                <p class="text-lg text-moticorp-200 mt-8 mb-10 font-light tracking-widest">Moticorp is dedicated to creating and developing great brands and customer-centric shops. Always in motion, Moticorp is constantly growing and tapping into markets in the retail, online, and dining industries. Our motivation and mission is to be unique, be great and be first.</p>
+                <a class="bg-black border-2 border-moticorp-500 font-bold inline-block px-12 py-4 text-lg text-white" href="/" style="opacity: 1; transform: translateY(0px);">Contact Us</a>
+            </div>
+        </section>
+        <hr class="pr__vr__section">
+        <section class="bg-white text-gray-900">
+            <div class="container mx-auto">
+                <div>
+                    <div class="">
+                        <hr class="">
+                        <h2 class="">What Clients Say.</h2>
+                        <span class="">From all over the world</span>
+                    </div>
+                    <div class="">
+                        <p class="">We are motivated by the satisfaction of our clients. Put your trust in us and share
+                            in our growth Asset Management is made up of a team of expert, committed and experienced people with a passion for
+                            financial markets. Our goal is to achieve continuous and sustainable growth of our clients.</p>
+                        <p class="">Aron Smith, UX Designer</p>
+                    </div>
+                </div>
+                <div class="container mx-auto">
+                    <div class="">
+                        <hr class="">
+                        <div class="">
+                            <div class="">
+                                <div class="inline-block">
+                                    <g-image src="~/images/moticorp-logo.svg" class="w-1/4"></g-image>
+                                </div>
+                                <div class="inline-block">
+                                    <g-image src="~/images/moticorp-logo.svg" class="w-1/4"></g-image>
+                                </div>
+                                <div class="inline-block">
+                                    <g-image src="~/images/moticorp-logo.svg" class="w-1/4"></g-image>
+                                </div>
+                                <div class="inline-block">
+                                    <g-image src="~/images/moticorp-logo.svg" class="w-1/4"></g-image>
+                                </div>
+                                <div class="inline-block">
+                                    <g-image src="~/images/moticorp-logo.svg" class="w-1/4"></g-image>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 	</Layout>
+    
 </template>
 
 <script>
 export default {
 	metaInfo: {
-		title: "Hello, world!"
+		title: "Home"
 	}
 };
 </script>
 
 <style>
-.home-links a {
-	@apply mr-4;
+.pr__vr__section {
+    position: relative;
+    margin: -30px auto;
+    border: 0;
+    border-left: 2px solid;
+    border-color: #F3822F;
+    width: 2px;
+    height: 60px;
+    z-index: 10;
 }
 </style>
