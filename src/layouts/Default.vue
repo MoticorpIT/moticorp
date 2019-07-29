@@ -1,12 +1,14 @@
 <template>
 	<div class="layout">
         <header class="container mx-auto py-10">
-            <div class="flex justify-between items-center">
+            <div class="flex items-center justify-between md:px-0 px-6">
                 <g-link to="/">
-                    <g-image src="~/images/moticorp-logo.svg" alt="Moticorp Logo" />
+                    <g-image src="~/images/moticorp-logo.svg" alt="Moticorp Logo" class="w-4/5 md:w-full" />
                 </g-link>
 
-                <nav class="">
+                <NavMenu></NavMenu>
+
+                <!-- <nav class="">
                     <ul class="font-bold text-lg hidden md:block">
                         <li class="inline-block" style="opacity: 1; transform: translateX(0px);">
                             <g-link class="nav__link" to="/" exact>About</g-link>
@@ -33,7 +35,7 @@
                         <span></span>
                         <span></span>
                     </div>
-                </nav>
+                </nav> -->
             
             </div>
         </header>
@@ -50,6 +52,15 @@ query {
     }
 }
 </static-query>
+
+<script>
+import NavMenu from '~/components/NavMenu.vue'
+export default {
+    components: {
+        NavMenu,
+    }
+}
+</script>
 
 <style>
 </style>

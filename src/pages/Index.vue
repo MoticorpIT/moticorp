@@ -1,15 +1,15 @@
 <template>
 	<Layout>
-        <section class="container mx-auto mb-24">
-            <div class="max-w-xl mt-10">
+        <section id="hero" class="-mt-32 container flex items-center mb-24 md:px-0 mx-auto px-6 text-white">
+            <div class="max-w-xl pt-12">
                 <hr class="border-2 border-moticorp-500 w-1/6 mb-8 mx-0">
-                <h2 class="font-hero leading-none text-7xl" style="opacity: 1; transform: translateY(0px);">Motivation in Motion.</h2>
-                <p class="text-lg text-moticorp-200 mt-8 mb-10 font-light tracking-widest">Moticorp is dedicated to creating and developing great brands and customer-centric shops. Always in motion, Moticorp is constantly growing and tapping into markets in the retail, online, and dining industries. Our motivation and mission is to be unique, be great and be first.</p>
+                <h2 class="font-hero leading-none md:text-7xl text-5xl" style="opacity: 1; transform: translateY(0px);">Motivation in Motion.</h2>
+                <p class="text-lg text-gray-400 mt-8 mb-10 font-light tracking-widest">Moticorp is dedicated to creating and developing great brands and customer-centric shops. Always in motion, Moticorp is constantly growing and tapping into markets in the retail, online, and dining industries. Our motivation and mission is to be unique, be great and be first.</p>
                 <a class="bg-black border-2 border-moticorp-500 font-bold inline-block px-12 py-4 text-lg text-white" href="/" style="opacity: 1; transform: translateY(0px);">Contact Us</a>
             </div>
         </section>
         <hr class="pr__vr__section">
-        <section class="bg-white text-gray-900">
+        <section class="bg-white">
             <div class="container mx-auto">
                 <div>
                     <div class="">
@@ -63,6 +63,15 @@ export default {
 </script>
 
 <style>
+#hero {
+    background-image: url(~@/images/hero-image.png);
+    background-color: #000000;
+    width: 100% !important; /* 1200px */
+    height: 750px; /* 750px */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .pr__vr__section {
     position: relative;
     margin: -30px auto;
