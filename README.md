@@ -2,11 +2,11 @@
 
 This is a [Gridsome](https://gridsome.org) project. Which is a [Vue.js](https://vuejs.org) static site generator. It was created using the default installation command `gridsome create new-project` and has been heavily modified to serve as the main website for [MotiCorp](https://moticorp.com). The project uses [TailwindCSS](https://tailwindcss.com) for styling.
 
-**NOTE: Site is still in production**
+**NOTE: Site is still in development**
 
 ## Contribute to the Project
 
-If you would like to contribute to the project. There are a few things you will need to do, but the process is fairly simple. **Note:** These steps are untested and may not work. If you following these steps and it doesn't work, please let us know how and/or why and we'll try to update.
+If you would like to contribute to the project. There are a few things you will need to do, but the process is fairly simple.
 
 #### 1. Clone the Project Repo
 In the Terminal run:
@@ -33,7 +33,14 @@ After the command runs, the terminal will be in a 'watch' state. Meaning it's ho
 
 You should see two urls on the terminal output after running the command. The first one, which should look similar to `http://localhost:8080/`, is the url you will use for local production. Click the link in the terminal and it should open our project in your browser.
 
-The second url in the terminal is for the GraphQL Explorer. Clicking this link will open a GraphQL playground where you can create and run queries before adding them to the project. Think SQL tab in phpMyAdmin, but better.
+The second url in the terminal is for the GraphQL Explorer, `http://localhost:8080/___explore`. Clicking this link will open a GraphQL playground where you can create and run queries before adding them to the project. Think, Query tab in phpMyAdmin.
+
+If the `gridsome develop` command fails. I would guess it to be because you need the Gridsome CLI tool installed. Run the following command and once complete, try to run `gridsome develop` again. Note, you could use NPM here, but it gave me errors trying to install globally with NPM.
+
+```shell
+// Using Yarn
+yarn global add @gridsome/cli
+```
 
 ## Now What
 
