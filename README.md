@@ -1,3 +1,5 @@
+![Moticorp.com Screenshot](/screen-shot.png "Moticorp.com Screenshot")
+
 # What is This?
 
 This is a [Gridsome](https://gridsome.org) project. Which is a [Vue.js](https://vuejs.org) static site generator. It was created using the default installation command `gridsome create new-project` and has been heavily modified to serve as the main website for [MotiCorp](https://moticorp.com). The project uses [TailwindCSS](https://tailwindcss.com) for styling.
