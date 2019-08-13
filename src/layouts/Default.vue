@@ -8,13 +8,15 @@
                 <NavMenu></NavMenu>
             </div>
         </header>
+
         <main class="">
     		<slot />
         </main>
+        
         <!-- <hr class="pr__vr__section"> -->
         <footer class="text-white">
-            <div class="py-8">
-                <div class="container mx-auto flex justify-between text-sm text-gray-700">
+            <div class="py-8 px-6">
+                <div class="container flex flex-wrap justify-around md:justify-between mx-auto text-gray-700 text-sm">
                     <div class="">
                         <div class="">
                             <p>©{{ new Date().getFullYear() }} <g-link class="text-gray-400 hover:text-white" to="/">Moticorp, Inc</g-link> | All rights reserved.</p>
