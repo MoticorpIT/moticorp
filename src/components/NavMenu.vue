@@ -76,16 +76,20 @@ export default {
 
 <style>
 .nav__link:after {
+    @apply -mb-2;
+    @apply absolute;
+    @apply border-b-2;
+    @apply border-moticorp-500;
+    @apply bottom-0;
+    @apply h-px;
+    @apply inline-block;
+    @apply left-0;
+    @apply w-0;
     content: "";
-    position: absolute;
-    left: 0;
-    bottom: -4px;
-    width: 0;
-    height: 1px;
-    border-bottom: 2px solid;
-    display: inline-block;
-    -webkit-transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
-    -o-transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
-    transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
 }
+.nav__link:hover:after {
+    @apply w-8;
+    transition: width 0.25s linear;
+}
+a.nav__link.active--exact.active:after { @apply w-8; }
 </style>
