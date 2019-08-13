@@ -10,7 +10,7 @@ export default function (Vue, { router, head, isClient }) {
     Vue.component('Layout', DefaultLayout)
     
     // Add attributes to BODY tag
-    head.bodyAttrs = { class: 'bg-black text-white font-moticorp tracking-wide' }
+    head.bodyAttrs = { class: 'bg-black text-gray-900 font-moticorp tracking-wide' }
 
     // Add custom fonts
     head.link.push({
