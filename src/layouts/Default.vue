@@ -10,7 +10,9 @@
         </header>
 
         <main class="">
-    		<slot />
+            <!-- <transition name="fade" appear> -->
+    		    <slot />
+            <!-- </transition> -->
         </main>
         
         <!-- <hr class="pr__vr__section"> -->
@@ -56,4 +58,11 @@ export default {
 </script>
 
 <style>
+/* .fade-enter-active {
+  transition: opacity .5s;
+}
+
+.fade-enter {
+  opacity: 0;
+} */
 </style>

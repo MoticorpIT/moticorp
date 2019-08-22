@@ -132,7 +132,7 @@
 export default {
 	metaInfo: {
 		title: "Home"
-	}
+    }
 };
 </script>
 
@@ -156,11 +156,12 @@ export default {
 	height: 60px;
 	z-index: 10;
 }
+
 .btn {
 	background: linear-gradient(to right, #f3822f 50%, #000000 50%);
 	background-size: 200% 100%;
 	background-position: right bottom;
-	transition: all 0.7s ease;
+	transition: background-position 0.7s ease;
 }
 .btn:hover {
 	background-position: left bottom;
@@ -168,13 +169,13 @@ export default {
 
 .parent img {
     filter: grayscale(1);
-    transition: all 0.5s linear;
+    transition: filter 0.5s linear;
 }
 .parent:hover img { filter: grayscale(0) }
 
-.parent .overlay { transition: opacity 0.5s linear; }
-.parent:hover .overlay {
-    opacity: 1;
-    transition: opacity 0.5s linear;
+.parent .overlay {
+    opacity: 0;
+    transition: opacity 0.5s linear; 
 }
+.parent:hover .overlay { opacity: 1; }
 </style>
